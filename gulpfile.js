@@ -13,17 +13,5 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.sass('app.scss');
-    mix.webpack('./app/assets/js/app.js');
-    mix.browserSync({
-        proxy: 'localhost:8000',
-        files: [
-            {
-                match: [
-                    "public/css/app.css",
-                    "public/js/bundle.js",
-                    "resources/views/**/*.blade.php"
-                ]
-            }
-        ]
-    });
+    mix.webpack('./resources/assets/js/app.js');
 });

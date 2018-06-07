@@ -24,14 +24,14 @@ $ php artisan serve
 $ php artisan route:make route_name
 ```
 
-### ビルド
+### フロントエンドのコンパイル
 
 ```bash
-$ npm build
+$ npm run dev
 ```
 
-### ビルド(ウォッチモード)
+### フロントエンドのコンパイル(ウォッチ)
 
 ```bash
-$ npm build-w
+$ npm run watch
 ```
