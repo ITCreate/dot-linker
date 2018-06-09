@@ -18,12 +18,6 @@ $ make setup
 $ php artisan serve
 ```
 
-### ルート定義ファイルの追加
-
-```bash
-$ php artisan route:make route_name
-```
-
 ### フロントエンドのコンパイル
 
 ```bash
