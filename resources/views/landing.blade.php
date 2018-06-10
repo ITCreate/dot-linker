@@ -1,10 +1,5 @@
 @extends('layout.app')
 
-@section('head')
-<link rel="stylesheet" href="{{{asset('css/landing.css')}}}" media="screen" title="no title" charset="utf-8">
-<link rel="stylesheet" href="{{{asset('/assets/css/tag.css')}}}" media="screen" title="no title" charset="utf-8">
-@endsection
-
 @section('content')
 <div class="top-image">
   <img src="{{{asset('/assets/img/top-img.jpg')}}}" alt="" />

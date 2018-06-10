@@ -1,10 +1,5 @@
 @extends('layout.app')
 
-@section('head')
-	<link rel="stylesheet" href="{{{asset('css/user-entry/user-entry-common.css')}}}" media="screen" title="no title" charset="utf-8">
-  <link rel="stylesheet" href="{{{asset('css/user-entry/user-entry-profile.css')}}}" media="screen" title="no title" charset="utf-8">
-@endsection
-
 @section('content')
   <div class="wrapper">
     @include('components.user-entry-step', [ 'current' => 'profile' ])
