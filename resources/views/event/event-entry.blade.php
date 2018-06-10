@@ -1,9 +1,5 @@
 @extends('layout.app')
 
-@section('head')
-    <link rel="stylesheet" href="{{{asset('css/event-entry.css')}}}" media="screen" title="no title" charset="utf-8">
-@endsection
-
 @section('content')
 <div class="wrapper">    
     <h1 class="title">イベント登録</h1>

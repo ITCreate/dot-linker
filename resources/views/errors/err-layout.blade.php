@@ -1,11 +1,5 @@
 @extends('layout.app')
 
-@section('head')
-  <link rel="stylesheet" href="{{{asset('/css/error-pages.css')}}}" media="screen" title="no title" charset="utf-8">
-  
-  <link href="./css/access-error.css" rel="stylesheet">
-@endsection
-
 @section('content')
 <div class="wrapper">  
   <div class="box">

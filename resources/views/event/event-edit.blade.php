@@ -1,10 +1,5 @@
 @extends('layout.app')
 
-@section('head')
-     <link rel="stylesheet" href="{{{asset('css/event-entry.css')}}}" media="screen" title="no title" charset="utf-8">
-     <link rel="stylesheet" href="{{{asset('css/event-edit.css')}}}" media="screen" title="no title" charset="utf-8">
-@endsection
-
 @section('content')
 <div class="wrapper">    
     <h1 class="title">イベント編集</h1>

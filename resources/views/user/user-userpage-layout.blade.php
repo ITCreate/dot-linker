@@ -1,9 +1,5 @@
 @extends('layout.app')
 
-@section('head')
-  <link rel="stylesheet" href="{{{asset('/css/my-page.css')}}}" media="screen" title="no title" charset="utf-8">
-@endsection
-
 @section('content')
   <div class="wrapper">
     <div class="row my-page">

@@ -1,8 +1,5 @@
 @extends('layout.app')
 
-@section('head')	
-@endsection
-
 @section('content')
     <div class="my-page">
         <h1 class="heading">マイページ</h1>
@@ -54,5 +51,4 @@
             </div>
         </div>
     </div>
-</div>
 @endsection

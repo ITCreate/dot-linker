@@ -2,9 +2,6 @@
 
 @inject('eventservice','App\Services\EventService')
 
-@section('head')    
-@endsection
-
 @section('content')
     <div class="event-detail">      
         @yield('hold')

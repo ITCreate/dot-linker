@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>.Linker</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">  
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <!--<link rel="stylesheet" href="{{{asset('/assets/css/common.css')}}}" media="screen" title="no title" charset="utf-8">-->          
-    <script src="http://cdn.ckeditor.com/4.5.6/full-all/ckeditor.js"></script>
-    <link rel="stylesheet" href="{{{asset('/css/app.css')}}}" media="screen" title="no title" charset="utf-8">
-    @yield('head')
+    <link rel="stylesheet" href="{{asset('/css/app.css')}}" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
     @include('components.header')
-    <main>      
+    <main>
       @yield('content')      
     </main>
     <footer id="footer">
@@ -44,7 +41,7 @@
       </div>
       <div class="footer-bottom"></div>
     </footer>
+    <script src="http://cdn.ckeditor.com/4.5.6/full-all/ckeditor.js"></script>
     <script src="/js/bundle.js" charset="utf-8"></script>
-    
   </body>
 </html>
