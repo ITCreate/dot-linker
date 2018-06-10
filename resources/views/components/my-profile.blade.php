@@ -4,7 +4,7 @@
   <div class="my-prof-content">
     <div class="icon-display">
       <div class="icon">
-          <img src={{ Auth::user()->iconPath() }} alt="">
+          <img src="{{ Auth::user()->iconPath() }}" alt="">
       </div>
     </div>
     <div class="user-name">

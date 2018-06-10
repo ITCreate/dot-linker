@@ -8,19 +8,20 @@
 			'route' => 'post-user-setting-tag',
 			'class' => 'register-form'
 		])}}          
-            <h2 class="user-setting-sub-title">お気に入りタグ設定</h2>
-            <tag-select user-code="{{ $user->code }}"></tag-select>
-            <div class="row info">
-                <div class="col">          
-                    <div class="row">
-                        <div class="info-left">
-                            <a href="{{ route('user-mypage-recommend') }}" class="button cancell left">キャンセル</a>
-                        </div>
-                        <div class="info-right">                
-                            <button type="submit" class="change button right">変更</button>
-                        </div>
+        <h2 class="user-setting-sub-title">お気に入りタグ設定</h2>
+        <tag-select user-code="{{ $user->code }}"></tag-select>
+        <div class="row info">
+            <div class="col">
+                <div class="row">
+                    <div class="info-left">
+                        <a href="{{ route('user-mypage-recommend') }}" class="button cancell left">キャンセル</a>
+                    </div>
+                    <div class="info-right">
+                        <button type="submit" class="change button right">変更</button>
                     </div>
                 </div>
             </div>
+        </div>
         {{ Form::close() }}
+    </div>
 @endsection
