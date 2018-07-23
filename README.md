@@ -6,13 +6,19 @@
 
 本リポジトリでは、開発中のソースコードは「develop」ブランチにマージし、デプロイするタイミングでそれらの変更を「master」ブランチにマージします。
 
-### セットアップ
+### クローン(初回のみ)
+
+```bash
+$ git clone https://github.com/ITCreate/dot-linker.git
+```
+
+### セットアップ(初回のみ)
 
 ```bash
 $ make setup
 ```
 
-#### APIキーの設定
+### APIキーの設定(初回のみ)
 
 1.
 `https://console.cloud.google.com/`にアクセスし, プロジェクトを作成する.
