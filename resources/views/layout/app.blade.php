@@ -35,7 +35,8 @@
         <div class="link-group">
           <div class="link-group-heading">OICリンク</div>
           <ul class="link-items">
-            <li><a href="http://oic.ac.jp/">公式ホームページ</a></li>          
+            <li><a href="http://oic.ac.jp/" target="_blank">公式ホームページ</a></li>
+            <li><a href="https://itc.moe/" target="_blank">ITCreate部</a></li>
           </ul>
         </div>
       </div>
