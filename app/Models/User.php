@@ -152,7 +152,6 @@ class User extends Authenticatable
         if(File::exists(public_path('icon_min.png'))) File::delete(public_path('icon_min.png'));
 
         return $result;
-        return null;        
     }
 
     public function iconPath(){
